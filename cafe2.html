@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Delight</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Cafe Delight</h1>
+      <p>Where every cup tells a story!</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#special-offers">Offers</a></li>
+        </a>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <img
+        src="cafe_home.jpg"
+        alt="Cozy Cafe"
+        style="width: 80%; height: 80%; object-fit: cover" />
+      <h2>Home</h2>
+      <p style="font-size:30px;">
+        Experience the cozy ambiance and savor the aroma of freshly brewed
+        coffee paired with delightful snacks.
+      </p>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p style="font-size:20px;">
+        At Cafe Delight, we're more than just a cafe — we're a community.
+        Founded with a passion for bringing people together over great coffee
+        and delicious food, our mission is to create a warm, inviting space
+        where everyone feels at home. Our carefully crafted menu features a
+        blend of classic favorites and unique creations, all made with the
+        finest ingredients. Whether you're a coffee enthusiast, a tea lover, or
+        a foodie seeking new flavors, our cafe offers a little something for
+        everyone. Come visit us and experience the heart and soul of Café
+        Delight.
+      </p>
+      <img
+        src="cafe_about.jpg"
+        alt="About Us"
+        style="width: 100%; height: 700px; object-fit: cover" />
+    </section>
+
+    <section>
+      <h2>Menu</h2>
+      <div id="menu">
+        <div class="menu-item">
+          <img src="Espresso.avif" alt="Espresso" />
+          <p>
+            <strong>Espresso</strong> - $3<br />A rich, strong coffee brewed to
+            perfection.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="Cappuccino.jpg" alt="Cappuccino" />
+          <p>
+            <strong>Cappuccino</strong> - $4<br />Foamy, frothy, and fabulous!
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="Latte.avif" alt="Latte" />
+          <p>
+            <strong>Latte</strong> - $4.5<br />Silky and smooth, perfect for any
+            time.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="muffin.jpg" alt="Chocolate Muffin" />
+          <p>
+            <strong>Chocolate Muffin</strong> - $2.5<br />Rich, moist, and
+            chocolatey delight.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="menu">
+      <div class="menu-item">
+        <img src="blueberry.jpg" alt="Blueberry Scone" />
+        <p>
+          <strong>Blueberry Scone</strong> - $3<br />Sweet, crumbly, and
+          bursting with berries.
+        </p>
+      </div>
+
+      <div class="menu-item">
+        <img src="mocha.jpg" alt="Mocha" />
+        <p>
+          <strong>Mocha</strong> - $5<br />Blend of espresso and steamed milk.
+        </p>
+      </div>
+
+      <div class="menu-item">
+        <img src="butter.jpg" alt="Butter Croissant" />
+        <p>
+          <strong>Butter Croissant</strong> - $3.5<br />Flaky, buttery, and
+          perfect with coffee.
+        </p>
+      </div>
+
+      <div class="menu-item">
+        <img src="greentea.jpg" alt="Green Tea" />
+        <p>
+          <strong>Green Tea</strong> - $3<br />Refreshing and packed with
+          antioxidants.
+        </p>
+      </div>
+    </section>
+
+    <section id="special-offers">
+      <h2>Special Offers</h2>
+      <div class="offer">
+        <p><strong>Buy 1 Get 1 Free:</strong> On all coffees every Monday!</p>
+      </div>
+      <div class="offer">
+        <p><strong>20% Off:</strong> On all desserts every Friday evening!</p>
+      </div>
+      <div class="offer">
+        <p>
+          <strong>Happy Hours:</strong> 4 PM - 6 PM, get a free cookie with any
+          coffee purchase.
+        </p>
+      </div>
+    </section>
+
+    <section style="background-color: gainsboro">
+      <center>
+        <p style="font-weight: 800; color: red">
+          we believe life is better with friends and family. if you've got a big
+          order,Cafe Delight would be happy to supply it to you!
+        </p>
+        <h1>Please fill in the form to inquire or order.</h1>
+      </center>
+      <form action="submit_form.php" method="post" style="width: 99%">
+        <input type="date" name="date" required placeholder="Date *" />
+        <input type="time" name="time" required placeholder="Time *" />
+        <input type="text" name="party" required placeholder="Party *" />
+        <input type="text" name="name" required placeholder="Name *" />
+        <input type="email" name="email" required placeholder="Email *" />
+        <input type="tel" name="mobile" required placeholder="Mobile No. *" />
+        <textarea name="message" required placeholder="Message *"></textarea>
+        <button type="submit" style="width: 99%">Submit</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Location: 123 Coffee Street, Brew City</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>Email: info@cafedelight.com</p>
+    </section>
+    <footer>
+      <p style="color: whitesmoke">
+        &copy; 2025 Cafe Delight. Crafted with ❤️ SIDDHANT
+      </p>
+    </footer>
+  </body>
+</html>
